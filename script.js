@@ -14,5 +14,5 @@ setInterval(() => {
 
   const time = `${hours}:${instance.getMinutes()}:${instance.getSeconds()} ${ampm}`;
 
-  timer.innerText = `${date} ${time}`;
+  timer.innerText = `${date}, ${time}`;
 }, 1000);
